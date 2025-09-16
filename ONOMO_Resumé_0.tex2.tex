@@ -1,0 +1,199 @@
+\documentclass[12pt,a4paper]{article}
+
+% --- Packages généraux ---
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage[a4paper, top=1in, bottom=1in, left=1in, right=1in]{geometry}
+\usepackage{array}
+\usepackage{graphicx}
+\usepackage{setspace}
+\usepackage{titlesec}
+\usepackage{amsmath}
+
+% --- Paramètres de mise en page ---
+\sloppy
+\setlength{\emergencystretch}{3em}
+\setstretch{1.5}
+
+\begin{document}
+
+% ============================
+% PAGE DE GARDE
+% ============================
+\thispagestyle{empty} % Pas de numéro de page
+
+% --- En-tête bilingue avec logo ---
+\begin{center}
+  \begin{minipage}{0.35\linewidth}
+    \centering
+    \textbf{RÉPUBLIQUE DU CAMEROUN} \\ 
+    Paix - Travail - Patrie \\[1em]
+    \textbf{------------} \\[1em]
+    Université de Yaoundé I \\[1em]
+    \textbf{------------} \\[1em]
+    École Nationale Supérieure Polytechnique \\[1em]
+    De Yaoundé \\[1em]
+    \textbf{------------} \\
+  \end{minipage}
+  \hfill
+  \begin{minipage}{0.25\linewidth}
+    \centering
+    \includegraphics[width=3cm]{logo.jpg}
+  \end{minipage}
+  \hfill
+  \begin{minipage}{0.35\linewidth}
+    \centering
+    \textbf{REPUBLIC OF CAMEROON} \\ 
+    Peace - Work - Fatherland \\[1em]
+    \textbf{------------} \\[1em]
+    The University of Yaoundé I \\[1em]
+    \textbf{------------} \\[1em]
+    National Advanced School of \\[1em]
+    Engineering of Yaoundé \\[1em]
+    \textbf{------------} \\
+  \end{minipage}
+\end{center}
+
+\vspace{2.5cm}
+% --- Titre principal ---
+\begin{center}
+  {\Huge \textbf{THÉORIE ET PRATIQUE DE \\[0.5em] L’INVESTIGATION NUMÉRIQUE}}
+\end{center}
+\vspace{2cm}
+
+% --- Réalisé par ---
+\noindent
+\textbf{RÉALISÉ PAR :} \\[1em]
+\renewcommand{\arraystretch}{1.3}
+\begin{tabular}{|c|m{6cm}|c|c|}
+  \hline
+  \textbf{N°} & \textbf{NOMS ET PRÉNOMS} & \textbf{SPÉCIALITÉ} & \textbf{MATRICULE} \\
+  \hline
+  01 & ONOMO NGONO ALICE  & CIN-4 & 24P830 \\
+  \hline
+\end{tabular}
+
+\vspace{1.5cm}
+
+\noindent
+\textbf{Examinateur :} \quad Mr MINKA Thierry 
+
+\vfill % pousse le texte en bas de page
+
+\begin{center}
+  \Large \textbf{Année Académique: 2025/2026}
+\end{center}
+
+\newpage % ---- Saut de page vers le rapport ----
+
+% ============================
+% RAPPORT / RÉSUMÉ
+% ============================
+
+\begin{center}
+\Huge Résumé de \og Théories et Pratiques de l’Investigation Numérique \fg
+\end{center}
+
+\vspace{1cm}
+
+\section*{Avant-propos}
+Cet ouvrage synthétise vingt années de recherche et de pratique en cybersécurité et en investigation numérique. 
+Il s’adresse aux ingénieurs souhaitant se spécialiser dans l’investigation post-quantique, tout en abordant 
+les enjeux juridiques liés à l’opposabilité des preuves numériques. 
+Une contribution majeure réside dans la formalisation du \textbf{trilemme CRO} : 
+\textit{Confidentialité, Fiabilité et Opposabilité juridique}.
+
+\section*{I. Engagements déontologiques}
+L’investigation numérique requiert une éthique stricte. 
+Chaque outil ou méthode confère un pouvoir particulier sur les systèmes analysés. 
+Un contrat déontologique engage ainsi le praticien à respecter la confidentialité, 
+préserver l’intégrité et agir avec responsabilité.
+
+\section{La société numérique : nouveau terrain de l’être}
+\subsection{Transformation de l’existence}
+Le numérique transforme l’ontologie humaine. L’individu existe à la fois physiquement et 
+numériquement. Trois concepts s’imposent :
+\begin{itemize}
+\item \textbf{Ontologie numérique} : l’identité numérique comme prolongement de l’existence.
+\item \textbf{Phénoménologie des données} : la trace comme matérialisation de la présence.
+\item \textbf{Métaphysique digitale} : de nouvelles formes de relations et d’être.
+\end{itemize}
+
+\subsection{Le paradoxe de la transparence}
+La quête de transparence entre en tension avec le droit à l’intimité. 
+L’investigateur numérique agit comme médiateur entre vérité et vie privée.
+
+\subsection{Épistémologie de la preuve numérique}
+La transition de la preuve matérielle à la preuve numérique bouleverse les critères 
+traditionnels de fiabilité et de recevabilité.
+
+\section{II. Fondements et évolution de l’investigation numérique}
+L’investigation repose sur une philosophie de la vérité adaptée à l’ère digitale. 
+Les mathématiques (théorie de l’information, graphes, chaos) structurent les analyses, 
+tandis que la révolution quantique transforme les paradigmes.
+
+\subsection{Crise de la vérité numérique}
+Trois défis émergent :
+\begin{itemize}
+\item \textbf{Manipulation algorithmique} : deepfakes et falsifications.
+\item \textbf{Érosion de l’autorité} : pluralité des sources et confusion.
+\item \textbf{Fragmentation du réel} : coexistence de réalités multiples.
+\end{itemize}
+
+\subsection{Fondements mathématiques}
+\begin{itemize}
+\item \textbf{Théorie de l’information} : entropie de Shannon
+\[ H(X) = -\sum_{i=1}^{n} P(x_i) \log_2 P(x_i) \]
+\item \textbf{Théorie des graphes} : représentation relationnelle
+\[ G = (V, E) \]
+\item \textbf{Théorie du chaos} : sensibilité aux conditions initiales
+\[ \delta(t) \approx \delta(0)e^{\lambda t} \]
+\end{itemize}
+
+\subsection{Révolution quantique}
+La mécanique quantique oppose déterminisme et probabilisme, localité et non-localité, 
+certitude et incertitude. Elle introduit des notions comme la superposition et 
+l’observateur participatif, redéfinissant la preuve numérique.
+
+\subsection{Paradoxe de l’authenticité invisible}
+Une tension existe entre authenticité, confidentialité et opposabilité. 
+Plus une preuve est fiable, plus elle révèle d’informations, menaçant la confidentialité. 
+Cette relation est exprimée par :
+\[
+\Delta A \cdot \Delta C \geq \hbar_{num}
+\]
+Les protocoles \textbf{Zero-Knowledge Non-Repudiation (ZK-NR)} permettent une résolution 
+en vérifiant sans divulguer.
+
+\section{III. Éthique et responsabilité}
+L’investigateur devient un \textit{philosophe-praticien}. 
+Il navigue entre trois tensions éthiques :
+\begin{itemize}
+\item Transparence vs vie privée.
+\item Efficacité vs proportionnalité.
+\item Innovation vs responsabilité.
+\end{itemize}
+La trace numérique est ainsi considérée comme manifestation d’existence.
+
+\subsection{Vers une éthique post-quantique}
+De nouveaux impératifs émergent : produire des preuves résistantes aux attaques quantiques 
+et pratiquer une \textit{praxis de liberté}, garantissant mémoire collective et vérité.
+
+\section*{IV. Cadre théorique et normes}
+Les standards internationaux (ISO/IEC, méthodologies SANS et CERT) guident la collecte 
+et l’analyse. L’accent est mis sur l’intégration d’éthique et de légalité 
+dans les processus techniques.
+
+\section*{V. Applications pratiques}
+Des études de cas illustrent les apports concrets : cybercriminalité, cyberespionnage, 
+fraudes financières. Chaque exemple montre la pertinence des concepts théoriques 
+et la complexité de leur mise en œuvre.
+
+\section*{Conclusion et perspectives}
+Le manuel insiste sur l’importance d’une approche intégrée, technique et éthique. 
+Les défis de l’informatique quantique imposent une adaptation constante des méthodes 
+et une coopération internationale renforcée. 
+L’investigation numérique devient ainsi une discipline au service de la vérité et de la justice.
+
+\end{document}
