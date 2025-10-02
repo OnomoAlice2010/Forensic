@@ -1,0 +1,198 @@
+\documentclass[12pt,a4paper]{article}
+
+% --- Packages généraux ---
+\usepackage[T1]{fontenc} % Encodage des caractères
+\usepackage[french]{babel}
+\usepackage[a4paper, top=1in, bottom=1in, left=1in, right=1in]{geometry}
+\usepackage{array}
+\usepackage{graphicx}
+\usepackage{setspace}
+\usepackage{titlesec}
+\usepackage{amsmath}
+\usepackage{longtable}
+\usepackage{listings} % Pour le code
+
+% --- Paramètres de mise en page ---
+\sloppy
+\setlength{\emergencystretch}{3em}
+\setstretch{1.5}
+
+% --- Configuration listings ---
+\lstset{
+  basicstyle=\ttfamily,
+  breaklines=true,
+  columns=fullflexible
+}
+
+\begin{document}
+
+% ============================
+% PAGE DE GARDE
+% ============================
+\thispagestyle{empty} % Pas de num\'ero de page
+
+% --- En-t\^ete bilingue avec logo ---
+\begin{center}
+  \begin{minipage}{0.35\linewidth}
+    \centering
+    \textbf{R\'EPUBLIQUE DU CAMEROUN} \\ 
+    Paix - Travail - Patrie \\[1em]
+    \textbf{------------} \\[1em]
+    Universit\'e de Yaound\'e I \\[1em]
+    \textbf{------------} \\[1em]
+    \'Ecole Nationale Sup\'erieure Polytechnique \\[1em]
+    De Yaound\'e \\[1em]
+    \textbf{------------} \\
+  \end{minipage}
+  \hfill
+  \begin{minipage}{0.25\linewidth}
+    \centering
+    \includegraphics[width=3cm]{logo.jpg}
+  \end{minipage}
+  \hfill
+  \begin{minipage}{0.35\linewidth}
+    \centering
+    \textbf{REPUBLIC OF CAMEROON} \\ 
+    Peace - Work - Fatherland \\[1em]
+    \textbf{------------} \\[1em]
+    The University of Yaound\'e I \\[1em]
+    \textbf{------------} \\[1em]
+    National Advanced School of \\[1em]
+    Engineering of Yaound\'e \\[1em]
+    \textbf{------------} \\
+  \end{minipage}
+\end{center}
+
+\vspace{2.5cm}
+% --- Titre principal ---
+\begin{center}
+  {\Huge \textbf{TH\'EORIE ET PRATIQUE DE \\[0.5em] L'INVESTIGATION NUM\'ERIQUE}}
+\end{center}
+\vspace{2cm}
+
+% --- R\'ealis\'e par ---
+\noindent
+\textbf{R\'EALIS\'E PAR :} \\[1em]
+\renewcommand{\arraystretch}{1.3}
+\begin{tabular}{|c|m{6cm}|c|c|}
+  \hline
+  \textbf{N\degre} & \textbf{NOMS ET PR\'ENOMS} & \textbf{SP\'ECIALIT\'E} & \textbf{MATRICULE} \\
+  \hline
+  01 & ONOMO NGONO ALICE & CIN-4 & 24P830 \\
+  \hline
+\end{tabular}
+
+\vspace{1.5cm}
+
+\noindent
+\textbf{Examinateur :} \quad Mr MINKA Thierry 
+
+\vfill
+
+\begin{center}
+  \Large \textbf{Ann\'ee Acad\'emique: 2025/2026}
+\end{center}
+
+\newpage
+
+% --- Partie 1 ---
+\section*{Partie 1 : Fondements philosophiques et \'epist\'emologiques}
+
+\subsection*{CHAPITRE 1 : Philosophie et Fondements de l'Investigation Num\'erique}
+
+\subsubsection*{Analyse Critique du Paradoxe de la Transparence}
+
+Le paradoxe de la transparence, identifi\'e par Byung-Chul Han, d\'emontre les tensions entre la qu\^ete de transparence num\'erique et le droit \`a l'intimit\'e. Dans nos soci\'et\'es modernes, cette poursuite peut parfois \^etre probl\'ematique. L'abondance d'informations et la surveillance constante g\'en\`erent des atteintes \`a la vie priv\'ee, entra\^inant des cons\'equences \'ethiques et sociales majeures.
+
+La transparence, initialement valeur positive, est devenue un imp\'eritf dans plusieurs domaines, comme la gouvernance. Toutefois, ce besoin de clart\'e peut mener \`a un contr\^ole pouvant nuire \`a la vie priv\'ee des citoyens.  
+
+Un exemple concret est la surveillance gouvernementale dans le cadre de la lutte contre le terrorisme. Les programmes r\'ev\'el\'es par Edward Snowden montrent comment la collecte de donn\'ees peut \^etre intrusive, transformant la transparence en outil de contr\^ole.  
+
+Pour pallier ce paradoxe, une approche inspir\'ee de l'\'ethique kantienne peut \^etre envisag\'ee. Kant pr\^one le respect de la dignit\'e humaine et de l'autonomie individuelle. Les donn\'ees personnelles doivent \^etre trait\'ees avec rigueur \'ethique et les citoyens inform\'es de leur utilisation. De plus, une \'education num\'erique est essentielle pour sensibiliser les citoyens aux enjeux de la transparence et de la vie priv\'ee.
+
+\subsubsection*{Transformation Ontologique du Num\'erique}
+
+Selon Heidegger, l'existence humaine (Dasein) est marqu\'ee par l'interaction avec le monde. \`A l'\'ere num\'erique, l'identit\'e humaine se double d'une identit\'e num\'erique, constitu\'ee par les traces laiss\'ees sur Internet (r\'eseaux sociaux, historiques, interactions).  
+
+\paragraph{Trace Num\'erique et Identit\'e}  
+Les donn\'ees personnelles constituent des fragments de notre existence. Chaque interaction contribue \`a construire l'identit\'e num\'erique.
+
+\paragraph{Manifestation de l'Existence}  
+Liker, commenter ou partager des contenus r\'ev\`ele nos go\^uts, opinions et relations, manifestations concr\`etes de notre existence.
+
+\paragraph{Construction de l'Identit\'e Num\'erique}  
+Cette identit\'e \'evolue avec nos d\'ecisions et interactions. Elle peut parfois rivaliser avec l'identit\'e physique, influen\c cant notre vie sociale.
+
+\paragraph{Implications \'Ethiques et Sociales}  
+L'acc\`es et l'usage des donn\'ees soul\`event des questions de confidentialit\'e et de manipulation. Les syst\`emes juridiques doivent s'adapter \`a ces nouvelles r\'ealit\'es pour \'evaluer l'authenticit\'e et la fiabilit\'e des preuves num\'eriques.
+
+% --- Partie 2 ---
+\newpage
+\section*{Partie 2 : Math\'ematiques de l'Investigation}
+
+\subsection*{Calcul d'Entropie de Shannon appliqu\'ee}
+
+\paragraph{Fichiers \'etudi\'es :}
+\begin{itemize}
+    \item Fichier texte : \texttt{LES_LIMITATIONS.txt}
+    \item Image JPEG
+    \item Fichier chiffr\'e AES
+\end{itemize}
+
+\paragraph{Exemple de script Python :}
+\begin{lstlisting}
+# Calcul de l'entropie en Python
+import math
+from collections import Counter
+
+def entropy(data):
+    counts = Counter(data)
+    total = len(data)
+    return -sum((count/total) * math.log2(count/total) for count in counts.values())
+
+with open("LES_LIMITATIONS.txt", "r", encoding="utf-8") as f:
+    text = f.read()
+print("Degre :", entropy(text))  # accent supprime
+\end{lstlisting}
+
+\paragraph{Analyse des r\'esultats :}  
+\begin{itemize}
+    \item Texte : H $\approx$ 1.5 bits/caract\`ere → niveau mod\'er\'e de d\'esordre.  
+    \item Image JPEG : H $\approx$ 7.2 bits/octet → forte variabilit\'e des pixels.  
+    \item Fichier AES : H $\approx$ 7.9 bits/octet → forte s\'ecurit\'e et impr\'evisibilit\'e.  
+\end{itemize}
+
+\paragraph{Seuil de d\'etection automatique :} 7.5 bits/octet pour identifier des fichiers chiffr\'es.
+
+\subsection*{Th\'eorie des Graphes en Investigation Criminelle}
+
+\paragraph{Donn\'ees t\'el\'ephoniques :}
+\begin{longtable}{|c|c|c|c|}
+\hline
+Jour & Dur\'ee totale (min) & Appelant & Destinataire \\
+\hline
+Lundi & 120 & Alice & Bob \\
+Mardi & 150 & Charlie & Dave \\
+Mercredi & 90 & Eve & Frank \\
+Jeudi & 180 & Alice & Charlie \\
+Vendredi & 200 & Bob & Eve \\
+Samedi & 60 & Frank & Dave \\
+Dimanche & 30 & Charlie & Alice \\
+\hline
+\end{longtable}
+
+\paragraph{Calcul des m\'etriques de centralit\'e :} degr\'e, interm\'ediarit\'e, proximit\'e (scripts et r\'esultats inclus dans \texttt{graphe.py}).
+
+\paragraph{Identification des noeuds critiques :} algorithme de Freeman.
+
+\paragraph{Visualisation du graphe :} couleurs proportionnelles \`a la centralit\'e.
+
+\subsection*{Mod\'elisation de l'Effet Papillon en Forensique}
+
+\begin{itemize}
+    \item Syst\`eme de logs avec 1000 \'ev\'enements corr\'el\'es.
+    \item Modification al\'eatoire d'un timestamp $\pm$30 secondes.
+    \item Analyse de l'impact sur le syst\`eme.
+\end{itemize}
+
+\end{document}
