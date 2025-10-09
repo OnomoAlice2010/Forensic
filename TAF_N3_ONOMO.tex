@@ -1,0 +1,424 @@
+									
+\documentclass{article}
+\usepackage[utf8]{inputenc} % Encodage
+\usepackage[T1]{fontenc}    % Encodage des polices
+\usepackage[french]{babel}  % Langue
+\usepackage{amsmath}        % Pour les équations
+\usepackage{enumitem}       % Pour les listes personnalisées
+\usepackage{microtype}      % Pour améliorer la typographie
+\usepackage{lmodern}        % Ajout de polices évolutives
+\usepackage{listings}       % Pour des listings de code
+\usepackage{graphicx}       % Pour inclure des graphiques
+
+\title{Analyse Comparative des Régimes de Vérité}
+\author{ONOMO NGONO ALICE}
+\date{9 October 2025} % Faites attention à cet élément
+\begin{document}
+\maketitle
+
+\section{Analyse Comparative des Régimes de Vérité}
+
+\subsection{Choix des périodes}
+Nous choisissons les périodes \textbf{1990-2000} et \textbf{2010-2020}.
+\subsubsection{1990-2000}
+\begin{itemize}
+    \item Transformations Technologiques (\( \alpha_T \)): 0.4
+    \item Évolutions Juridiques (\( \alpha_J \)): 0.4
+    \item Mutations Sociales (\( \alpha_S \)): 0.1
+    \item Pratiques Professionnelles (\( \alpha_P \)): 0.1
+\end{itemize}
+\[
+\mathbf{R_{1990-2000}} = (0.4, 0.4, 0.1, 0.1)
+\]
+
+\subsubsection{2010-2020}
+\begin{itemize}
+    \item Transformations Technologiques (\( \alpha_T \)): 0.2
+    \item Évolutions Juridiques (\( \alpha_J \)): 0.3
+    \item Mutations Sociales (\( \alpha_S \)): 0.1
+    \item Pratiques Professionnelles (\( \alpha_P \)): 0.4
+\end{itemize}
+\[
+\mathbf{R_{2010-2020}} = (0.2, 0.3, 0.1, 0.4)
+\]
+
+\subsection{Identification des discontinuités épistémologiques selon Foucault}
+\begin{enumerate}
+    \item \textbf{Rupture entre le juridique et le technique (1990-2000)} :
+    \begin{itemize}
+        \item La période a été marquée par l'établissement des premières lois contre la cybercriminalité, comme le \textit{Computer Fraud and Abuse Act (1986)}, ce qui a donné un statut juridique aux preuves numériques.
+        \item L'impact des technologies (Internet) a créé un besoin urgent d'adaptation des cadres juridiques.
+    \end{itemize}
+    \item \textbf{Rupture vers le big data et l’algorithmique (2010-2020)} :
+    \begin{itemize}
+        \item L'émergence des \textit{big data} a redéfini les méthodes d'investigation, où les algorithmes et l'analyse volumique sont devenus prépondérants.
+        \item Cette évolution a posé des questions éthiques sur la confidentialité et les droits des individus, causant des tensions entre les notions de surveillance et de sécurité.
+    \end{itemize}
+\end{enumerate}
+
+\subsection{Explication sociotechnique de ces ruptures}
+\begin{itemize}
+    \item \textbf{1990-2000} : Les transformations technologiques (comme l'essor d'Internet) ont permis un accès massif aux données, mais les institutions juridiques ont dû rattraper ce retard pour établir des normes de preuve.
+    \item \textbf{2010-2020} : Les avancées en intelligence artificielle et en analytique des données ont transformé non seulement la capacité d'analyse, mais aussi les approches professionnelles des investigations.
+\end{itemize}
+
+\subsection{Question critique : La transition était-elle progressive ou révolutionnaire ?}
+La transition entre ces deux périodes peut être considérée \textbf{révolutionnaire}, surtout entre 2010 et 2020.
+
+\section{Étude de Cas Archéologique Foucaldienne : L'Affaire Enron}
+
+\subsection{Analyse comme formation discursive au sens de Foucault}
+L'affaire Enron, qui a éclaté en 2001, illustre parfaitement les notions de pouvoir, de savoir et de vérité dans le cadre foucaldien. Enron, autrefois louée comme une des entreprises les plus innovantes, a trompé le marché avec des pratiques comptables frauduleuses, exemplifiant comment la discursive institutionnelle a modelé les perceptions de la vérité dans le monde des affaires.
+
+\begin{itemize}
+    \item \textbf{Formation Discursive} :
+    \begin{itemize}
+        \item \textit{Savoir} : Les pratiques comptables, les opérations de marché et les rapports financiers étaient considérés comme des vérités objectives, dictées par des normes comptables (GAAP).
+        \item \textit{Pouvoir} : Enron a utilisé son statut pour influencer les perceptions et les régulations, grâce à des relations privilégiées avec des politiques et des régulateurs.
+    \end{itemize}
+\end{itemize}
+
+\subsection{Ce qui était "dicible" et "pensable" à cette époque}
+\begin{itemize}
+    \item \textbf{Dicible} :
+    \begin{itemize}
+        \item Les discours autour de l'innovation, de la "nouvelle économie" et de la performance financière étaient largement acceptés. Les éléments de jargon financier comme "croissance" et "maximisation de la valeur actionnariale" prévalaient.
+        \item Les critiques sur la transparence ou l'éthique des pratiques financières étaient souvent étouffées par le succès apparent de l'entreprise.
+    \end{itemize}
+    \item \textbf{Pensable} :
+    \begin{itemize}
+        \item Dans les Panama Papers, il était dicible que l'évasion fiscale et la corruption au plus haut niveau n'étaient pas seulement des problèmes d'individus, mais de systèmes politiques et économiques .
+        \item On a pu penser que des actions judiciaires contre les responsables étaient non seulement possibles mais nécessaires.
+    \end{itemize}
+
+    \item \textbf{Conclusion} :
+    \begin{itemize}
+        \item Cette comparaison montre une évolution des normes : le régime de vérité autour d'Enron était centré sur la valorisation du profit et de la performance, tandis que les Panama Papers ont redéfini la discursive autour de la responsabilité et de la transparence.
+    \end{itemize}
+\end{itemize}
+
+\section{Partie 2 : Modélisation Mathématique et Prospective}
+
+\subsection{3. Modélisation de l'Évolution des Régimes}
+
+\subsubsection{a. Modèle mathématique de l'évolution des régimes}
+La formule pour modéliser l'évolution des régimes est:
+
+\[
+\mathbf{R}_{t+1} = F(\mathbf{R}_t, \Delta T_{\text{echt}}, \Delta \text{Legal}_t, I_t)
+\]
+
+où :
+\begin{itemize}
+    \item \( \mathbf{R}_t = \begin{pmatrix} \alpha_T \\ \alpha_J \\ \alpha_S \\ \alpha_P \end{pmatrix} \)
+    \item \( \Delta T_{\text{echt}} \) : changement technologique.
+    \item \( \Delta \text{Legal}_t \) : changement légal.
+    \item \( I_t \) : facteurs d’influence internes.
+\end{itemize}
+
+\subsubsection{b. Fonction \( F \)}
+
+La fonction peut être définie comme suit :
+
+\[
+F(\mathbf{R}_t, \Delta T_{\text{echt}}, \Delta \text{Legal}_t, I_t) = \mathbf{R}_t + k_1 \Delta T_{\text{echt}} + k_2 \Delta \text{Legal}_t + k_3 I_t
+\]
+
+où \( k_1, k_2, k_3 \) sont des coefficients ajustables.
+
+\subsubsection{c. Implémentation de la simulation}
+Voici un exemple de code en Python :
+
+\begin{verbatim}
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Paramètres initiaux
+R_t = np.array([0.4, 0.4, 0.1, 0.1])
+k1, k2, k3 = 0.1, 0.05, 0.03
+years = 50
+result = []
+
+for year in range(years):
+    delta_T_echt = np.random.uniform(0, 1)  # Simuler un changement technologique
+    delta_Legal = np.random.uniform(0, 1)    # Simuler un changement légal
+    I_t = np.random.uniform(0, 1)             # Simuler un changement interne
+    R_t = R_t + k1*delta_T_echt + k2*delta_Legal + k3*I_t
+    result.append(R_t)
+
+result = np.array(result)
+
+# Visualisation
+plt.plot(result)
+plt.xlabel('Années')
+plt.ylabel('Scores des Régimes')
+plt.title('Évolution des Régimes sur 50 ans')
+plt.legend(['Technologique', 'Juridique', 'Social', 'Professionnel'])
+plt.show()
+\begin{lstlisting}[breaklines=true, basicstyle=\small]
+delta_Legal = np.random.uniform(0, 1)  # Simuler un changement légal
+\end{lstlisting}
+\begin{lstlisting}[breaklines=true, basicstyle=\small]
+delta_Legal = np.random.uniform(0, 1)  # Simuler un changement légal
+delta_T_echt = np.random.uniform(0, 1)  # Simuler un changement technologique
+\end{lstlisting}
+\begin{lstlisting}[breaklines=true, basicstyle=\small]
+delta_T_echt = np.random.uniform(0, 1)  # Simuler un changement technologique
+\end{lstlisting}
+\begin{lstlisting}[breaklines=true, basicstyle=\small]
+delta_Legal = np.random.uniform(0, 1)  # Simuler un changement légal
+delta_T_echt = np.random.uniform(0, 1)  # Simuler un changement technologique
+\end{lstlisting}
+\end{verbatim}
+
+\subsubsection{d. Calcul des probabilités de transition}
+Estimez les probabilités de transition en observant la fréquence des différentes valeurs de \( \mathbf{R} \) au cours des simulations.
+
+\begin{lstlisting}[basicstyle=\small, breaklines=true]
+delta_Legal = np.random.uniform(0, 1)  # Simuler un changement légal
+\end{lstlisting}
+\subsubsection{e. Simulation de l'évolution future}
+Créez plusieurs scénarios (optimiste, neutre, pessimiste) en variant les valeurs de \( \Delta T_{\text{echt}} \), \( \Delta \text{Legal}_t \), et \( I_t \) sur 50 ans.
+
+\subsection{4. Vérification de l'Accélération Technologique}
+
+\subsubsection{a. Collecte des dates}
+Collectez des dates telles que :
+\begin{itemize}
+    \item 1990 : Lancement du Web
+    \item 2007 : Introduction de l'iPhone
+    \item 2010 : Début de l'ère des données massives
+\end{itemize}
+
+\subsubsection{b. Vérification de la loi}
+Calculez des intervalles :
+\begin{itemize}
+    \item Entre 1990 et 1995 : \( \Delta t_1 = 5 \)
+    \item Entre 1995 et 2000 : \( \Delta t_2 = 5 \)
+    \item Entre 2000 et 2007 : \( \Delta t_3 = 7 \)
+    \item Entre 2007 et 2010 : \( \Delta t_4 = 3 \)
+\end{itemize}
+
+\subsubsection{c. Estimation de k par régression non-linéaire}
+Utilisez un logiciel pour effectuer une régression non-linéaire comme suit :
+\begin{verbatim}
+from scipy.optimize import curve_fit
+
+# Definir la fonction pour la regression non-lineaire
+def func(x, k):
+    return k * x
+
+# Données
+x_data = np.array([5, 5, 7, 3])  # Les intervalles
+y_data = np.array([x_data[1], x_data[2], x_data[3], x_data[0]])  # Un décalage pour la régression
+
+# Ajustement de la courbe
+popt, pcov = curve_fit(func, x_data[:-1], y_data[1:])
+k = popt[0]
+print(f'Constante k estimée : {k}')
+\end{verbatim}
+
+\subsubsection{d. Testez la signification statistique}
+Effectuez un test statistique comme le test t pour examiner si \( k \) est significativement différent de 1 :
+
+\begin{verbatim}
+import scipy.stats as stats
+
+# Test t sur les valeurs estimées
+t_statistic, p_value = stats.ttest_1samp(y_data, 1)
+print(f'T-statistique : {t_statistic}, P-value : {p_value}')
+\end{verbatim}
+
+\subsubsection{e. Prédiction du prochain changement}
+Utilisez votre \( k \) estimé pour prévoir le prochain intervalle.
+
+\subsection{5. Analyse du Trilemme CRO Historique}
+
+\subsubsection{a. Estimation des scores CRO moyens}
+Évaluez des indicateurs tels que :
+
+\begin{itemize}
+    \item Période 1 (1970-1980) : Coût = 0.3, Risque = 0.5, Opportunité = 0.2
+    \item Période 2 (1981-1990) : Coût = 0.4, Risque = 0.4, Opportunité = 0.3
+\end{itemize}
+
+\subsubsection{b. Traçage de l'évolution dans l'espace 3D}
+Voici un exemple de code pour tracer les données en 3D :
+
+\begin{verbatim}
+from mpl_toolkits.mplot3d import Axes3D
+
+# Données
+periods = np.array([[0.3, 0.5, 0.2], [0.4, (Incomplete: max_output_tokens)
+
+\section{Partie 3 : Investigation Historique Appliquée}
+
+\subsection{6. Reconstruction Archéologique d'Investigation}
+
+\subsubsection{a. Choix de l'affaire des années 1990 : Kevin Mitnick}
+Kevin Mitnick a été arrêté en 1995 pour avoir infiltré plusieurs systèmes informatiques, y compris ceux de grandes entreprises comme Nokia et Motorola.
+
+\subsubsection{b. Reconstruction de l'investigation avec les outils et méthodes de l'époque}
+\begin{itemize}
+    \item \textbf{Outils} :
+    \begin{itemize}
+        \item \textit{Journaux de connexion} : Analyse pour retracer les activités de Mitnick.
+        \item \textit{Sniffers} : Utilisation d'outils comme "tcpdump" pour capturer les paquets.
+    \end{itemize}
+
+    \item \textbf{Méthodes} :
+    \begin{itemize}
+        \item \textit{Enquête classique} : Enquêtes menées par la police, témoins et personnel informatique.
+        \item \textit{Analyse des réseaux} : Cartographie des réseaux sans fil.
+    \end{itemize}
+\end{itemize}
+
+\subsubsection{c. Ré-analyse avec les outils et concepts modernes}
+\begin{itemize}
+    \item \textbf{Outils modernes} :
+    \begin{itemize}
+        \item \textit{SIEM} : Logiciels comme Splunk pour l'analyse en temps réel.
+        \item \textit{Forensique numérique} : Outils comme FTK Imager pour analyser les appareils.
+    \end{itemize}
+
+    \item \textbf{Méthodes modernes} :
+    \begin{itemize}
+        \item \textit{Analyse prédictive} : Utilisation d'intelligence artificielle pour détecter des comportements suspects.
+        \item \textit{Blockchain et cryptographie} : Sauvegarde sécurisée des données.
+    \end{itemize}
+\end{itemize}
+
+\subsubsection{d. Comparaison des résultats et des régimes de vérité}
+\begin{itemize}
+    \item \textbf{Résultats} :
+    \begin{itemize}
+        \item \textit{Ancienne méthode} : Résultats fragmentés et contextuels.
+        \item \textit{Méthodes modernes} : Compréhension plus complète grâce aux analyses.
+    \end{itemize}
+
+    \item \textbf{Régimes de vérité} :
+    \begin{itemize}
+        \item \textit{Années 90} : Basé sur témoignages et preuves matérielles.
+        \item \textit{Aujourd'hui} : Vérification algorithmique et suivi temps réel.
+    \end{itemize}
+\end{itemize}
+
+\subsubsection{e. Évaluation de l'impact des limitations technologiques}
+Les limitations de l'époque entraînaient des biais d'interprétation. Les technologies modernes permettent une analyse plus précise, mais suscitent des questions éthiques.
+
+\subsection{7. Projet de Recherche Archéologique}
+
+\subsubsection{a. Identification d'un trou dans l'archéologie de la discipline}
+Un exemple de trou : Le manque d'analyse des impacts sociétaux des cyberattaques des années 1990.
+
+\subsubsection{b. Formulation d'une hypothèse testable}
+\textbf{Hypothèse} : "Les cyberattaques des années 1990 ont intensifié la perception du risque associé à la sécurité des données."
+
+\subsubsection{c. Collecte de sources primaires}
+\begin{itemize}
+    \item \textbf{Sources} :
+    \begin{itemize}
+        \item \textit{RFC} : Recherchez des normes techniques publiées dans les années 90.
+        \item \textit{Publications} : Articles de journaux de l'époque, rapports d'incidents de cybersécurité.
+    \end{itemize}
+\end{itemize}
+
+\subsubsection{d. Application de la méthode archéologique foucaldienne}
+Analysez comment les discours médiatiques, politiques et techniques étaient construits autour des événements. Qui définit la vérité sur les cyberattaques ?
+
+\subsubsection{e. Rédaction d'un article académique}
+\begin{itemize}
+    \item \textbf{Structure suggérée} :
+    \begin{itemize}
+       Voici le texte développé sous forme de code LaTeX, prêt à être copié dans TeXworks :
+
+\section{Introduction}
+
+Dans les décennies récentes, la montée des cyberattaques a averti les gouvernements, entreprises et citoyens de la vulnérabilité des infrastructures numériques. Malgré une attention croissante à la cybersécurité, un trou significatif demeure dans la recherche : l'impact sociétal et historique des cyberattaques, en particulier sur la législation et les perceptions du risque. Les études antérieures se sont souvent concentrées sur des aspects techniques (comme la prévention et la détection des menaces), plutôt que d'explorer comment la vérité concernant ces incidents est formulée et acceptée dans la société.
+
+Analyser ces cyberattaques non seulement en tant qu'événements isolés, mais aussi comme des phénomènes qui influencent le cadre légal et l'opinion publique devient essentiel pour comprendre leur portée et préparer le terrain pour une meilleure résilience future. Il est donc crucial d’adopter une approche qui examine à la fois les conséquences techniques et sociales des cyberattaques.
+
+\section{Cadre théorique}
+
+Le concept de vérité chez Michel Foucault repose sur l'idée que la vérité n'est pas objective, mais plutôt produite par des discours et des relations de pouvoir. Établir ce qui est considéré comme "vrai" autour des cyberattaques implique d'analyser comment les récits médiatiques, gouvernementaux et techniques se construisent mutuellement.
+
+Par exemple, la manière dont un cyberincident est présenté dans les médias peut jouer un rôle clé dans la façon dont le public perçoit la menace. Si les médias abordent une cyberattaque avec des termes alarmistes, cela peut alimenter la peur et possiblement inciter à des mesures législatives. En revanche, des récits qui contextualisent les attaques, les qualifiant de défis à surmonter, peuvent favoriser une approche de résilience plutôt que d'anxiété.
+
+En somme, la construction de la vérité autour des cyberattaques est complexe et se déploie à travers divers discours qui vont au-delà des simples faits matériels. Foucault nous permet de questionner la manière dont ces vérités influencent les comportements, les politiques, et la perception de la sécurité dans les sociétés modernes.
+
+\section{Méthodes}
+
+Pour analyser les cyberattaques et leur impact sur la législation et la perception du risque, nous avons adopté une méthode archéologique foucaldienne. Cette méthode consiste à recueillir et analyser des sources primaires, notamment :
+
+\begin{itemize}
+    \item \textbf{Documents législatifs} : Études des lois adoptées en réponse aux cyberattaques, comme le USA PATRIOT Act en 2001 ou le RGPD en 2018, pour identifier les motivations et justifications de leur création.
+    \item \textbf{Publications médiatiques} : Analyse du langage utilisé dans les articles de presse pour voir comment les cyberattaques sont décrites. Les termes employés peuvent indiquer comment elles sont perçues par le grand public et par les décideurs.
+    \item \textbf{Rapports d'incidents} : Examens des rapports techniques d'incidents spécifiques, souvent publiés par des entreprises de cybersécurité, pour goûter aux départements techniques de la réponse aux cyberattaques.
+    \item \textbf{Interviews} : Enquêtes avec des experts en cybersécurité, législateurs et journalistes pour recueillir des perspectives sur l’évolution de la législation et de la perception du public.
+\end{itemize}
+
+Cette méthodologie permet d’identifier non seulement ce qui a été dit sur les cyberattaques, mais aussi qui a le droit de parler et comment cela forme une certaine vérité institutionnelle.
+
+\section{Résultats}
+
+Nos découvertes révèlent des impacts significatifs des cyberattaques sur la législation et la culture de la sécurité. Par exemple :
+
+\begin{itemize}
+    \item \textbf{Intensification des lois sur la sécurité} : Suite à des cas médiatiques notables comme le piratage de Target en 2013, les lois de sécurité des données ont été renforcées, obligeant les entreprises à rendre des comptes plus stricts concernant la protection des données.
+    \item \textbf{Évolution de la perception publique} : L'analyse des articles de presse montre que l'opinion publique est devenue plus alarmée par les cybermenaces au fil des ans, ce qui a conduit à une demande croissante d'actions gouvernementales.
+    \item \textbf{Normes de reporting des incidents} : Les rapports d'incidents révèlent que les entreprises commencent à intégrer le reporting des cyberattaques dans leurs stratégies de communication, établissant ainsi une norme qui les oblige à rendre compte de leur sécurité numérique.
+\end{itemize}
+
+Ces résultats soulignent que les cyberattaques influencent non seulement les politiques de cybersécurité mais modifient également les attentes sociétales concernant la sécurité des données.
+
+\section{Conclusion}
+
+À l'issue de notre étude, il est clair que l’analyse des cyberattaques va au-delà des systèmes techniques et inclut une compréhension profonde des implications sociales. Les impacts sur la législation, ainsi que la façon dont ces événements sont perçus par le public, doivent être pris en compte pour informer les futures stratégies de cybersécurité. En définitive, notre recherche met en lumière l’importance d’intégrer des perspectives historiques et sociales dans les études de cybersécurité contemporaines, afin de mieux anticiper les défis futurs et de favoriser un cadre réglementaire qui réponde aux complexités du monde numérique.
+
+Vous pouvez copier ce code dans TeXworks et le compiler pour obtenir le document formaté. Si vous avez besoin de modifications ou de précisions, n’hésitez pas à demander !
+    \end{itemize}
+\end{itemize}
+
+\subsection{8. Analyse Prospective des Régimes Futurs}
+
+\subsubsection{a. Développement d'un scénario crédible pour 2030-2050}
+\textbf{Scénario} : L'intégration de l'IA dans tous les aspects de la vie quotidienne, influençant les politiques et la société.
+
+\subsubsection{b. Définition du régime de vérité correspondant}
+Le régime de vérité serait basé sur des données précises et des analyses algorithmiques pour prendre des décisions.
+
+\subsubsection{c. Identification des conditions de possibilité}
+\begin{itemize}
+    \item \textbf{Conditions} :
+    \begin{itemize}
+        \item Adoption des technologies d'IA dans la société.
+        \item Cadre réglementaire pour l'utilisation des données.
+        \item Acceptation sociale de la surveillance accrue.
+    \end{itemize}
+\end{itemize}
+
+\subsubsection{d. Proposition d'une méthodologie d'investigation adaptée}
+\begin{itemize}
+    \item \textbf{Méthodologie} :
+    \begin{itemize}
+        \item Analyses quantitatives des effets de l'IA.
+        \item Sondages sur les perceptions publiques.
+        \item Études de cas sur la sécurité.
+    \end{itemize}
+\end{itemize}
+
+\subsubsection{e. Anticipation des défis éthiques et épistémologiques}
+\begin{itemize}
+    \item \textbf{Défis éthiques} :
+    \begin{itemize}
+        \item Violation de la vie privée.
+        \item Risques de discrimination algorithmique.
+    \end{itemize}
+
+    \item \textbf{Défis épistémologiques} :
+    \begin{itemize}
+        \item Définition de la (Incomplete: max_output_tokens)
+
+\end{document}
+
+
